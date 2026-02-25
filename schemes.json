@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": "PM-Kisan Samman Nidhi",
+    "category": "Agriculture",
+    "description": "Financial benefit of Rs. 6000/- per year in three equal installments to all land-holding farmer families.",
+    "priority": 5,
+    "criteria": {
+      "occupation": ["Farmer"],
+      "income_limit": null,
+      "land_holding": true
+    },
+    "documents": ["Aadhaar Card", "Land Records", "Bank Account Details"]
+  },
+  {
+    "id": "mgnrega",
+    "name": "MGNREGA",
+    "category": "Employment",
+    "description": "Guarantees at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work.",
+    "priority": 4,
+    "criteria": {
+      "location": "Rural",
+      "occupation": ["Unskilled Laborer", "Any"]
+    },
+    "documents": ["Job Card", "Aadhaar Card", "Bank Passbook"]
+  },
+  {
+    "id": "pmay_g",
+    "name": "PM-Awas Yojana (Gramin)",
+    "category": "Housing",
+    "description": "Provides financial assistance to rural BPL households for construction of houses.",
+    "priority": 5,
+    "criteria": {
+      "location": "Rural",
+      "income_limit": 120000,
+      "caste": ["SC", "ST", "BPL"]
+    },
+    "documents": ["Income Certificate", "Caste Certificate", "BPL Card", "Aadhaar Card"]
+  },
+  {
+    "id": "ayushman_bharat",
+    "name": "Ayushman Bharat (PM-JAY)",
+    "category": "Health",
+    "description": "National Health Insurance Scheme that provides a health cover of up to Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization.",
+    "priority": 5,
+    "criteria": {
+      "income_limit": 250000,
+      "caste": ["BPL", "Any"]
+    },
+    "documents": ["Aadhaar Card", "Ration Card", "PM Letter"]
+  },
+  {
+    "id": "sukanya_samriddhi",
+    "name": "Sukanya Samriddhi Yojana",
+    "category": "Financial",
+    "description": "A small deposit scheme for the girl child launched as a part of the 'Beti Bachao Beti Padhao' campaign.",
+    "priority": 3,
+    "criteria": {
+      "gender": "Female",
+      "age_limit": 10
+    },
+    "documents": ["Girl Child Birth Certificate", "Aadhaar of Parent", "Photo"]
+  },
+  {
+    "id": "pm_ujjwala",
+    "name": "PM-Ujjwala Yojana",
+    "category": "Energy",
+    "description": "Provides LPG connections to women from Below Poverty Line (BPL) households.",
+    "priority": 4,
+    "criteria": {
+      "gender": "Female",
+      "income_limit": 100000,
+      "caste": ["BPL", "SC", "ST"]
+    },
+    "documents": ["BPL Ration Card", "Aadhaar Card", "Bank Account"]
+  }
+]
